@@ -36,12 +36,12 @@ static char c000000[]                    = "#000000"; // placeholder value
 
 static char normfgcolor[]                = "#bbbbbb";
 static char normbgcolor[]                = "#222222"; // default #222222
-static char normbordercolor[]            = "#a6da95"; // colors inactive window
+static char normbordercolor[]            = "#607D8B"; // colors inactive window
 static char normfloatcolor[]             = "#db8fd9"; // default: #db8fd9
 
 static char selfgcolor[]                 = "#eeeeee";
 static char selbgcolor[]                 = "#a6e3a1"; // default: #005577
-static char selbordercolor[]             = "#d3869b"; // default: #005577 Border active window
+static char selbordercolor[]             = "#4CAF50"; // default: #005577 Border active window
 static char selfloatcolor[]              = "#005577";
 
 static char titlenormfgcolor[]           = "#bbbbbb";
@@ -50,7 +50,7 @@ static char titlenormbordercolor[]       = "#a6da95";
 static char titlenormfloatcolor[]        = "#db8fd9";
 
 static char titleselfgcolor[]            = "#eeeeee";
-static char titleselbgcolor[]            = "#d3869b"; //default: #005577 background color in bar border
+static char titleselbgcolor[]            = "#4CAF50"; //default: #005577 background color in bar border
 static char titleselbordercolor[]        = "#005577";
 static char titleselfloatcolor[]         = "#005577";
 
@@ -166,7 +166,7 @@ static const Rule rules[] = {
 	RULE(.wintype = WTYPE "TOOLBAR", .isfloating = 1)
 	RULE(.wintype = WTYPE "SPLASH", .isfloating = 1)
 	RULE(.class = "Gimp", .tags = 1 << 4)
-	RULE(.class = "Firefox", .tags = 1 << 7)
+	RULE(.class = "brave", .tags = 1 << 7)
 };
 
 /* Bar rules allow you to configure what is shown where on the bar, as well as
